@@ -29,3 +29,61 @@
 //confirm("are u sure?");
 //o
 //console.log(confirm("are us ure?"));
+
+//parseInt
+
+//let numberFromString = parseInt("123");
+//onsole.log(numberFromString);
+
+//let Prueba = Number("123");
+//console.log(Prueba);
+//let pruebaDos = +"23";
+//console.log(pruebaDos);
+
+//isNaN;
+
+/*let checkisNan = isNaN("12345");
+console.log(checkisNan);
+let othercheckNan = isNaN("tres");
+console.log(othercheckNan)*/
+
+/*let number = 5;
+console.log(number.toString());
+
+let Edad = parseInt("19");
+console.log(Edad);
+
+let edadDeGonza = 29;
+console.log(edadDeGonza.toString());
+
+let tryNan = isNaN("perro");
+console.log(tryNan); */
+
+/*MAYUSCALAS Y MINUSCULAS 
+let soda = "Carr";
+console.log(soda.toUpperCase());
+
+let sodaDos = "IVES";
+console.log(sodaDos.toLowerCase());*/
+
+//------------------------------
+
+//CONCATENACION DE STRING MEDIANTE SIGNO MAS +
+
+/*let name = "Fabiana";
+console.log("Hola" + " " + "Fabiana");*/
+
+//---------------------------------------
+//CONCATENACION IMPLICITA
+//A) CUANDO HAY SIGNO MAS QUE UNE UN NUMBER Y UN String, JS CONVIERTE TODO A STRING
+/*let number = 5;
+let string = "3";
+
+console.log(number + string);*/
+
+//B) EN LOS DEMAS CASOS (SIGNOS MENOS, POR, DIVIDIDO, ETC) TODO SE HACE NUMBER
+
+/*let number = 6;
+let string = "4";
+
+console.log(number - string); */
