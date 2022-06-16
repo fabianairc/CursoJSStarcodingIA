@@ -87,3 +87,24 @@ console.log(number + string);*/
 let string = "4";
 
 console.log(number - string); */
+
+//--------------------------------------
+
+//OPERADORES ARITMETICOS
+
+///unarios
+/*console.log(typeof "hola mundo"); //hace string
+console.log(+"123"); //hace numero
+console.log(-"123"); hace numero y luego lo }niega queda menos 123 */
+
+//binarios
+/*console.log(2 + 3);
+console.log(3 - 2);
+console.log(3 + 2);
+console.log(6 / 3);
+console.log(7 % 3); */
+
+//LOGICOS
+//binarios
+console.log(2 < 3);
+console.log(2 > 3);
