@@ -106,5 +106,94 @@ console.log(7 % 3); */
 
 //LOGICOS
 //binarios
-console.log(2 < 3);
-console.log(2 > 3);
+/*console.log(2 < 3);
+console.log(2 > 3);*/
+
+//AND
+/*console.log(2 > 0 && 2 === 2);
+//console.log(3 < 2 && 3 === 3);*/
+
+//OR
+/*console.log(2 > 3 || 3 > 2);
+console.log(2 > 3 || 3 > 4);*/
+
+//ternario ?
+//let edad = 18;
+//console.log(edad >= 18 ? "podes manejar" : "no podes manejar");
+
+//OPERATOR PRECEDENCE
+//CUAL JS USA PRIMERO
+
+//promedio ejemplo
+//console.log((30 + 20) / 2);
+
+//-------
+//TEMPLATE LITERALS
+//const Name = "Fabiana";
+//console.log(`soy ${Name}`);
+
+//-------------------------------------------
+//CONTORL DE FLUJOS
+
+/*let age = 18;
+
+if (age >= 18) {
+  console.log("podes manejar");
+} else {
+  console.log("no podes manejar");
+}*/
+
+/*ELSE IF
+
+let numer = 10;
+
+if (numer < 10) {
+  console.log("es menor que diez");
+} else if (numer > 10) {
+  console.log("es amyor que diez");
+} else {
+  console.log("es igual a diez");
+}*/
+
+//SWITCH
+
+/*const weather = "calor";
+
+switch (weather) {
+  case "frio":
+    console.log("lleva abrigo");
+    break;
+
+  case "fresco":
+    console.log("lleva camisa");
+    break;
+
+  case "calor":
+    console.log("sali tranquilo");
+
+  default:
+    console.log("toma mucha agua");
+    break;
+} */
+
+//FOR
+
+/*for (i = 1; i <= 10; i++) {
+  console.log(i);
+}*/
+
+//DO WHILE
+/*let i = 0;
+
+do {
+  console.log("con  DO while", i);
+  i++;
+} while (i < 2);*/
+
+//while
+
+/*let numer = 0;
+while (numer < 3) {
+  console.log("con while", numer);
+  numer++;
+}*/
