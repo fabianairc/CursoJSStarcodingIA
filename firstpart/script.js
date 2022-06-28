@@ -197,3 +197,19 @@ while (numer < 3) {
   console.log("con while", numer);
   numer++;
 }*/
+//---------------------------
+
+//declarar funcionf
+
+/*function sumar(num1, num2) {
+  console.log(num1 + num2);
+}
+
+//LLAMAR FUNCION
+sumar(1, 2);*/
+
+//RETURN
+// const SayHolaMundo = function () {
+//   return "Hola mundo";
+// };
+// console.log(SayHolaMundo());
