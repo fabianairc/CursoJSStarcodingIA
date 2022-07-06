@@ -213,3 +213,12 @@ sumar(1, 2);*/
 //   return "Hola mundo";
 // };
 // console.log(SayHolaMundo());
+
+//ARRAY
+//formas de declarar arrays
+const miArray = ["TU vieja", "La mia"];
+console.log(miArray[1]);
+console.log(miArray.length);
+miArray[0] = "holis";
+console.log(miArray[0]);
+const otroArray = new Array();
