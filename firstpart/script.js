@@ -216,9 +216,37 @@ sumar(1, 2);*/
 
 //ARRAY
 //formas de declarar arrays
-const miArray = ["TU vieja", "La mia"];
-console.log(miArray[1]);
+// const miArray = ["TU vieja", "La mia"];
+// console.log(miArray[1]);
+// console.log(miArray.length);
+// miArray[0] = "holis";
+// console.log(miArray[0]);
+// const otroArray = new Array();
+
+const miArray = ["Juan", "pedro", "pablo", "Ian", "Spencer"];
 console.log(miArray.length);
-miArray[0] = "holis";
-console.log(miArray[0]);
-const otroArray = new Array();
+console.log(miArray.length - 1);
+miArray[miArray.length - 1] = "Aria";
+console.log(miArray);
+console.log(miArray.indexOf("pablo"));
+miArray.push("Mac");
+console.log(miArray);
+miArray.pop();
+console.log(miArray);
+miArray.unshift("gonza");
+console.log(miArray);
+miArray.shift();
+console.log(miArray);
+
+miArray.splice(1, 2);
+console.log(miArray);
+miArray.slice(1, 2);
+console.log(miArray);
+
+for (i = 0; i < miArray.length; i++) {
+  console.log(i);
+}
+
+miArray.forEach((item) => {
+  console.log(item);
+});
