@@ -256,11 +256,21 @@ const miArray = ["Juan", "pedro", "pablo", "Ian", "Spencer"];
 // });
 // console.log(newArrayWithMap);
 
-const filteredArray = miArray.filter((nombre) => {
-  return nombre === "pablo";
-});
-console.log(filteredArray);
-const existingElement = miArray.find((name) => {
-  return name === "pedro";
-});
-console.log(existingElement);
+// const filteredArray = miArray.filter((nombre) => {
+//   return nombre === "pablo";
+// });
+// console.log(filteredArray);
+// const existingElement = miArray.find((name) => {
+//   return name === "pedro";
+// });
+// // console.log(existingElement);
+
+// const orderedArrray = miArray.sort();
+// console.log(orderedArrray);
+// console.log(orderedArrray.reverse);
+
+// const numberArray = [2, 4, 6, 7, 8];
+// const total = numberArray.reduce((Acumularo, ValorActual) => {
+//   return Acumularo + ValorActual;
+// }, 0);
+// console.log(total);
