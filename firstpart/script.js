@@ -274,3 +274,31 @@ const miArray = ["Juan", "pedro", "pablo", "Ian", "Spencer"];
 //   return Acumularo + ValorActual;
 // }, 0);
 // console.log(total);
+
+// //OBJETOS
+// const persona = { Nombre: "Fabiana", Apellido: "Ramirez", Job: "Lawyer" };
+// console.log(persona.Job);
+// persona.Hobbre = "Karate";
+// console.log(persona);
+
+//POO
+//se declara la clase y luego se instnacias objetos  apartir de la clase
+
+class Persona {
+  constructor(firstName, City, Job) {
+    this.firstName = firstName;
+    this.City = City;
+    this.job = Job;
+  }
+
+  saludar() {
+    console.log(`Hola ${this.firstName}`);
+  }
+}
+const Alexis = new Persona("Alexis", "CABA", "Developer");
+const Martin = new Persona("Martin", "Cordoba", "Arquitecto");
+const Alberto = new Persona("Alberto", "corrientes", "lawyer");
+
+console.log(Alexis, Martin, Alberto);
+
+Alexis.saludar();
