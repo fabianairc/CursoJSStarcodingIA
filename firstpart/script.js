@@ -321,3 +321,15 @@
 // }
 
 // spencer.sayAge();
+
+//ASINCRONISMO
+
+// console.log("hola mundo");
+// setTimeout(function timeOut() {
+//   console.log("dentro del time"), 5000;
+// });
+// console.log("welcome");
+
+// setTimeout(() => console.log("mario"), 1000);
+// console.log("jUan");
+// console.log("pedrr");
