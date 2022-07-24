@@ -331,5 +331,30 @@
 // console.log("welcome");
 
 // setTimeout(() => console.log("mario"), 1000);
-// console.log("jUan");
-// console.log("pedrr");
+// // console.log("jUan");
+// // console.log("pedrr");
+// alert("HOla Papa");
+
+const datos = [
+  { id: 1, title: "iron man", year: 2008 },
+  { id: 2, title: "spiderman", year: 2017 },
+];
+
+const getDatos = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(datos);
+    }, 1500);
+  });
+};
+
+getDatos().then((datos) => console.log(datos));
+
+async function fetchingData() {
+  try {
+    const datosFeteched = await getDatos();
+    console.log(datosFeteched);
+  } catch (err) {
+    console.log(err);
+  }
+}
