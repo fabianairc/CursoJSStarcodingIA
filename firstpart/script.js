@@ -315,46 +315,65 @@
 //     super(name, isDomestic);
 //     this.age = age;
 //   }
-//   sayAge() {
-//     console.log(`${this.name} tiene ${this.age} y es ${this.isDomestic}`);
+// //   sayAge() {
+// //     console.log(`${this.name} tiene ${this.age} y es ${this.isDomestic}`);
+// //   }
+// // }
+
+// // spencer.sayAge();
+
+// //ASINCRONISMO
+
+// // console.log("hola mundo");
+// // setTimeout(function timeOut() {
+// //   console.log("dentro del time"), 5000;
+// // });
+// // console.log("welcome");
+
+// // setTimeout(() => console.log("mario"), 1000);
+// // // console.log("jUan");
+// // // console.log("pedrr");
+// // alert("HOla Papa");
+
+// const datos = [
+//   { id: 1, title: "iron man", year: 2008 },
+//   { id: 2, title: "spiderman", year: 2017 },
+// ];
+
+// const getDatos = () => {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve(datos);
+//     }, 1500);
+//   });
+// };
+
+// getDatos().then((datos) => console.log(datos));
+
+// async function fetchingData() {
+//   try {
+//     const datosFeteched = await getDatos();
+//     console.log(datosFeteched);
+//   } catch (err) {
+//     console.log(err);
 //   }
-// }
+// // }
 
-// spencer.sayAge();
+// const getDataFromApi = async () => {
+//   try {
+//     const response = await fetch(
+//       "https://jsonplaceholder.typicode.com/todos/1"
+//     );
+//     console.log(await response.json());
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+// getDataFromApi();
 
-//ASINCRONISMO
-
-// console.log("hola mundo");
-// setTimeout(function timeOut() {
-//   console.log("dentro del time"), 5000;
-// });
-// console.log("welcome");
-
-// setTimeout(() => console.log("mario"), 1000);
-// // console.log("jUan");
-// // console.log("pedrr");
-// alert("HOla Papa");
-
-const datos = [
-  { id: 1, title: "iron man", year: 2008 },
-  { id: 2, title: "spiderman", year: 2017 },
-];
-
-const getDatos = () => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(datos);
-    }, 1500);
-  });
-};
-
-getDatos().then((datos) => console.log(datos));
-
-async function fetchingData() {
-  try {
-    const datosFeteched = await getDatos();
-    console.log(datosFeteched);
-  } catch (err) {
-    console.log(err);
-  }
-}
+const anyFunction = new Promise((resolve) => {
+  resolve;
+});
+anyFunction.then((resolvedValue) => console.log("Mario"));
+console.log("Juan");
+cosole.log("Luis");
