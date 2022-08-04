@@ -362,18 +362,29 @@
 // const getDataFromApi = async () => {
 //   try {
 //     const response = await fetch(
-//       "https://jsonplaceholder.typicode.com/todos/1"
-//     );
-//     console.log(await response.json());
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
-// getDataFromApi();
+// //       "https://jsonplaceholder.typicode.com/todos/1"
+// //     );
+// //     console.log(await response.json());
+// //   } catch (error) {
+// //     console.log(error);
+// //   }
+// // };
+// // getDataFromApi();
 
-const anyFunction = new Promise((resolve) => {
-  resolve;
-});
-anyFunction.then((resolvedValue) => console.log("Mario"));
-console.log("Juan");
-cosole.log("Luis");
+// const anyFunction = new Promise((resolve) => {
+//   resolve;
+// });
+// anyFunction.then((resolvedValue) => console.log("Mario"));
+// console.log("Juan");
+// cosole.log("Luis");
+
+// EVENTOS
+
+const sayHello = () => {
+  alert("Hola mundo");
+  logo.removeEventListener("click", sayHello);
+};
+const logo = document.querySelector(".logo");
+logo.onclick = () => sayHello();
+
+logo.addEventListener("click", sayHello);
